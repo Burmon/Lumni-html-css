@@ -1,0 +1,130 @@
+body{
+  background-image: url(/imgs/bg.png); 
+}
+
+
+#header {
+    box-sizing: border-box;
+    height: 3.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: #FFE071;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+#menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    right: 0px;
+    background: #1162AD;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  #menu a {
+   
+    
+    display: block;
+    text-decoration: none;
+    font-family: "Abel";
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    border-radius: 25px;
+    transition: all .8s;
+    text-transform: uppercase;
+    padding: 1rem 0;
+    margin: 4rem 1rem;
+    text-align: center;
+    color: #FFE071;
+    font-weight: 400;
+  }
+
+
+
+  #nav.active #menu {
+    height: calc(100vh - 0%);
+    visibility: visible;
+    overflow-y: auto;
+  }
+  
+  #btn-mobile {
+    display: flex;
+    padding: .5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 100%;
+    border-color: #1162AD;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+    color: #1162AD;
+  }
+
+
+  /* --------APRESENTAÇÃO-------- */
+
+  .perfil_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #1162AD;
+    border-radius: 25px;
+    
+  }
+
+  .perfil_container img{
+
+    width: 40%;
+
+  }
+
+  .perfil_container h1, h2{
+    font-family: "Abel";
+    
+  }
+
+  .perfil_container h1{
+    font-size: 40px;
+    color: #FFE071;
+    letter-spacing: 5px;
+   
+  }
+
+  .perfil_container h2{
+    font-size: 30px;
+    color: #FFFFFF;
+  }

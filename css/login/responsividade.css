@@ -1,0 +1,121 @@
+@media  screen and (min-width: 768px) {
+  
+    body{
+        background-color: #1162AD;
+        background-image: none;
+        
+    }
+
+    main{
+        display: flex;
+        font-family: 'Abel';
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(/imgs/bg.png);
+        border-radius: 25px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        
+    }
+    .logo img {
+    
+        width: 7rem;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .logo h1{
+        font-family: 'Amatic SC';
+        font-weight: bolder;
+        letter-spacing: 5px;
+        text-align: center;
+        color: #1162AD;
+        font-size: 30px;
+    }
+    
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0.5rem;
+    
+    }
+    
+    .formulario input{
+        width: 25%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        font: inherit;
+        border-radius: 50px;
+        border: solid 0.5px #1162AD;
+        background-color: #FFFFFF;   
+        color: #1162AD;
+        text-align: center;
+    }
+    
+    .formulario button{
+        padding: 0.8rem 0;
+        background-color: #FFE071;
+        border: none;
+        border-radius: 25px;
+        width: 10%;
+        color: #1162AD;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        cursor: pointer;
+        transition: background .4s;
+    }
+
+    .formulario button:hover{
+        background-color: #1162AD;
+        color: #FFE071;
+
+    }
+    
+    button a:hover{
+
+        color: #FFE071;
+
+    }
+
+    .checkbox{
+        margin: 1rem 30.5rem;
+    }
+    
+    .links{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 0.5rem;
+        font-weight: 800;
+        
+    
+    }
+    
+    #link1{
+        margin-bottom: 0.5rem;
+        text-decoration: none;
+        color: #1162AD;
+    }
+    
+    #link2{
+        text-decoration: none;
+        color: #1162AD;
+    }
+
+
+    
+
+}

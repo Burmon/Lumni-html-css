@@ -67,6 +67,12 @@ main{
     text-transform: uppercase;
     letter-spacing: 5px;
     cursor: pointer;
+    
+}
+
+.formulario button a{
+    text-decoration: none;
+    color: #1162AD;
 }
 
 .checkbox{
@@ -94,4 +100,5 @@ main{
     text-decoration: none;
     color: #1162AD;
 }
+
 
