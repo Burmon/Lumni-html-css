@@ -76,7 +76,6 @@ body{
     height: 2px;
     background: currentColor;
     margin-top: 5px;
-    transition: 0.3s;
     position: relative;
     color: #1162AD;
   }
@@ -170,16 +169,17 @@ body{
 }
 
 #mural_botao{
-  padding: 0.6rem 0;
+  
   background-color: #FFE071;
   border: none;
   border-radius: 50%;
-  width: 20%;
+  width: 11.5%;
   color: #1162AD;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 5px;
   cursor: pointer;
+  margin-bottom: 2rem;
 }
 
