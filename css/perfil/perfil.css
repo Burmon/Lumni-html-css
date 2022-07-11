@@ -2,6 +2,7 @@ body{
   background-image: url(/imgs/bg.png); 
 }
 
+/* --------MENU-------- */
 
 #header {
     box-sizing: border-box;
@@ -12,15 +13,7 @@ body{
     background: #FFE071;
     
   }
-  
-  
-  
-  
-  
-  
-  
-  
- 
+
 #menu {
     display: block;
     position: absolute;
@@ -128,3 +121,65 @@ body{
     font-size: 30px;
     color: #FFFFFF;
   }
+
+/* -------MURAL------- */
+
+.mural_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+#mural_titulo{
+  font-family: "Abel";
+  font-size: 50px;
+  color: #1162AD;
+}
+
+
+#mural{
+  text-align: center;
+  background-color: #FFE071;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+#mural h4{
+  font-family: "Abel";
+  font-size: 10;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#mural h2{
+  font-family: "Abel";
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+#mural h3{
+  font-family: "Abel";
+  font-size: 25px;
+  margin-bottom: 0.5rem;
+  
+}
+
+#mural_botao{
+  padding: 0.6rem 0;
+  background-color: #FFE071;
+  border: none;
+  border-radius: 50%;
+  width: 20%;
+  color: #1162AD;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
